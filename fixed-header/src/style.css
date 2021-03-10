@@ -1,0 +1,48 @@
+.navBar {
+  background-color: purple;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.button {
+  background-color: cyan;
+  height: 30px;
+  width: 80px;
+  margin: 10px;
+  border: none;
+}
+
+.button.wider {
+  width: 120px;
+}
+
+container {
+  margin-top:80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+}
+
+main {
+  background-color: yellow;
+  height: 500px;
+  flex-grow: 4;
+}
+
+aside {
+  background-color: green;
+  height: 500px;
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: lightgrey;
+  height: 80px;
+  margin: 10px 100px;
+  
+}

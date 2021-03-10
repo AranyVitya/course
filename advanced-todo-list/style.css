@@ -1,0 +1,80 @@
+body {
+    /* background-color: #50E3C2; */
+    background-color: #174A41;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #F7F7F7; */
+    background-color: #FFFFFF;
+    width: 370px;
+    min-height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    /* color: #B8B8B8; */
+    color: #4E774F;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.input-field {
+    width: 300px;
+    height: 36px;
+    margin-bottom: 30px;
+    border: solid 1px grey;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    font-size: 18px;
+    border: none;
+}
+
+button {
+    height: 36px;
+    width: 46px;
+    font-size: 18px;
+    /* background-color: #DF69E8;
+    color: #F7F7F7; */
+    border: none;
+    background-color: #F1B249;
+    color: #FFFFFF;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    width: 300px;
+    /* color: #B8B8B8; */
+    /*világosabb árnyalat 
+    color: #9DC98E*/
+    color: #4E774F;
+    list-style-type:none;
+    margin: 0px;
+    margin-bottom: 30px;
+    padding:0px;
+}
+
+.todo-list-element {
+    float: left;
+}
+
+.icons {
+    float: right;
+}
+
+.fas {
+    margin-left: 10px;
+}

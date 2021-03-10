@@ -1,0 +1,24 @@
+.flex-container  {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1240px;
+    border:solid;
+    border-color: #4285F4;
+    justify-content: center;
+    margin: 10px;
+}
+
+.flex-container > div {
+    background-color: #4285F4;
+    width: 100px;
+    height: 100px;
+    margin: 20px 10px 20px 10px;
+}
+
+.flex-container.second {
+    background-color: #FF6347;
+}
+
+.flex-container.second > div {
+    background-color: #b168d3;
+}

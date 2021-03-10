@@ -1,0 +1,11 @@
+.link {
+  font-family: 'Sen', sans-serif;
+  display: block;
+  margin: 10px;
+  color: green;
+}
+
+.link:hover {
+  color: lime;
+  text-decoration: none;
+}

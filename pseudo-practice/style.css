@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.paragraph {
+    border: solid;
+    border-bottom: 0;
+    padding: 20px;
+}
+
+.paragraph.first {
+    border-top: 0;
+}
+
+.paragraph:hover {
+    background-color: #EA6942;
+  }
